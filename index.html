@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Political Meter</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h1 id="title">Political Meter</h1>
+    </div>
+    <form id="formOne">
+      <div class="form-group">
+        <label for="question1"><u><strong>Select a preferred candidate:</strong></u></label>
+        <select id="question1" class="form-control">
+          <option value="person">Some other person</option>
+          <option value="biden">Biden</option>
+          <option value="trump">Trump</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="question2"><u><strong>Select a Color:</strong></u></label>
+        <select id="question2" class="form-control">
+          <option value="purple">Purple</option>
+          <option value="blue">Blue</option>
+          <option value="red">Red</option>
+        </select>
+      </div>
+      <button class="btn btn-danger">Submit</button>
+
+    </form>
+    <!-- Liberal div -->
+    <div id="liberal">
+      <h3><u>Woah you're Liberal! Nice!</u></h3>
+    </div>
+    <!-- Conservative div -->
+    <div id="conservative">
+      <h3><u>Woah you're Conservative! Nice!</u></h3>
+    </div>
+    <!-- Moderate div -->
+    <div id="moderate">
+      <h3><u>Woah you're Moderate! Nice!</u></h3>
+    </div>
+  </div>
+</body>
+</html>
